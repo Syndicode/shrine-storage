@@ -1,0 +1,18 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - lib/api-core.rb
+    - api_core.gemspec
+  TargetRubyVersion: 2.6
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 94
+Metrics/BlockLength:
+  Max: 150
+Metrics/AbcSize:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Max: 7
