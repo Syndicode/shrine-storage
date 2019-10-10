@@ -197,11 +197,8 @@ development:
 ```
 
 - **Additional info:**
-```ruby
-  [Shrine Docs](https://github.com/shrinerb/shrine/blob/master/README.md)
-  [AzureStorageBlob Docs](https://github.com/Azure/azure-storage-ruby/blob/master/blob/README.md)
-```
-
+[Shrine Docs](https://github.com/shrinerb/shrine/blob/master/README.md)
+[AzureStorageBlob Docs](https://github.com/Azure/azure-storage-ruby/blob/master/blob/README.md)
 
 ## Development
 
