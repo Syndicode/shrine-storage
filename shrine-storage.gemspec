@@ -12,15 +12,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Extend existing shrine gem with using official azure-storage-blob SDK'
   spec.description   = 'Extend existing shrine gem with using official azure-storage-blob SDK'
-  spec.homepage      = 'https://github.com/anerhan/shrine-storage.git'
+  spec.homepage      = 'https://github.com/Syndicode/shrine-storage.git'
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
     # spec.metadata['allowed_push_host'] = ''
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/anerhan/azure-storage.git'
-    spec.metadata['changelog_uri'] = 'https://github.com/anerhan/azure-storage.git'
+    spec.metadata['source_code_uri'] = 'https://github.com/Syndicode/azure-storage.git'
+    spec.metadata['changelog_uri'] = 'https://github.com/Syndicode/azure-storage.git'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
