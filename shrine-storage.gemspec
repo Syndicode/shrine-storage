@@ -42,4 +42,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop'
 
   spec.add_dependency 'azure-storage-blob', '~> 1.1.0'
+  spec.add_dependency 'nokogiri', '>= 1.10.8'
 end
