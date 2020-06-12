@@ -61,10 +61,10 @@ class Shrine
         )
         if (path = extract_path(io))
           ::File.open(path, 'rb') do |file|
-            client.create_block_blob(container_name, id, file.read, timeout: 30)
+            client.create_block_blob(container_name, id, file.read, timeout: 30, **_options)
           end
         else
-          client.create_block_blob(container_name, id, io.to_io)
+          client.create_block_blob(container_name, id, io.to_io, **_options)
         end
       end
 
